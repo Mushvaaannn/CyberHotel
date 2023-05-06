@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHotel</title>
+</head>
+
+<head>
+    <!-- Favicon -->
+	<link rel="icon" type="image/gif" href="img/favicon-32x32.png">
+    
+    <!-- Google Font CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+
+    <!-- Icon Font CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87abec2308.js" crossorigin="anonymous"></script>
+
+    <!-- Animation Libraries CSS -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <!-- Template CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+<!-- Header Start -->
+<div class="container-fluid bg-black px-0">
+    <div class="row gx-0">
+        <div class="col-lg-3 bg-dark d-none d-lg-block">
+            <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <h1 class="m-0 text-primary text-uppercase">CyberHotel</h1>
+            </a>
+        </div>
+        <div class="col-lg-9">
+            <div class="row gx-0 bg-dark d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                        <i class="fa-solid me-2 fa-address-book" style="color: #fea116; "></i>
+                        <p class="mb-0">Contact</p>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                        <i class="fa fa-envelope text-primary me-2"></i>
+                        <p class="mb-0">booking@cyber.hotel</p>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-2">
+                        <i class="fa fa-phone-alt text-primary me-2"></i>
+                        <p class="mb-0">+995599990867</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="d-inline-flex align-items-center py-2">
+                        <a class="me-3" href="https://www.facebook.com/Mushvaaaaannnn"><i class="fab fa-facebook-f"></i></a>
+                        <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 text-primary text-uppercase">CyberHotel</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">მთავარი</a>
+                        <a href="about.html" class="nav-item nav-link">ჩვენს შესახებ</a>
+                        <a href="service.html" class="nav-item nav-link">სერვისები</a>
+                        <a href="room.html" class="nav-item nav-link">ოთახები</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">სხვა</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="booking.html" class="dropdown-item active">დაჯავშნა</a>
+                                <a href="team.html" class="dropdown-item">ჩვენი გუნდი</a>
+                                <a href="testimonial.html" class="dropdown-item">შეფასებები</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">კონტაქტი</a>
+                    </div>
+                    <a href="login.html" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">პრემიუმ პაკეტი<i class="fa fa-arrow-right ms-3"></i></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/hacking+laboratory.jpg);">
+            <div class="container-fluid page-header-inner py-5">
+                <div class="container text-center pb-5">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">დაჯავშნა</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">მთავარი</a></li>
+                            <li class="breadcrumb-item"><a href="#">სხვა</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">დაჯავშნა</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        <!-- Booking Start -->
+        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="bg-white shadow" style="padding: 35px;">
+                    <div class="row g-2">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+                                <div class="col-md-3">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input"
+                                            placeholder="დაწყება" data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="დასრულება" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>ქალაქი</option>
+                                        <option value="1">თბილისი</option>
+                                        <option value="2">ქუთაისი</option>
+                                        <option value="3">რუსთავი</option>
+                                        <option value="4">ბათუმი</option>
+                                        <option value="5">თელავი</option>
+                                        <option value="6">გორი</option>
+                                        <option value="7">ახალციხე</option>
+                                        <option value="8">მესტია</option>
+                                        <option value="9">სენაკი</option>
+                                        <option value="10">ახალქალაქი</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>პერსონალი</option>
+                                        <option value="1">1</option>
+                                        <option value="2">10</option>
+                                        <option value="3">15</option>
+                                        <option value="4">20</option>
+                                        <option value="5">25</option>
+                                        <option value="6">30</option>
+                                        <option value="8">35</option>
+                                        <option value="8">40</option>
+                                        <option value="9">45</option>
+                                        <option value="10">50</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary w-100">შეკვეთა</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">ოთახის დაჯავშნა</h6>
+                    <h1 class="mb-5">დაჯავშნე <span class="text-primary text-uppercase">კიბერ-ოთახი</span></h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/hacking+laboratory.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/superhacking.jpeg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/mediumhacking.png">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/1personwithlight.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="name" required>
+                                            <label for="name">სახელი</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating date" id="date3" data-target-input="nearest">
+                                            <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" required/>
+                                            <label for="checkin">დაწყება</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating date" id="date4" data-target-input="nearest">
+                                            <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" required/>
+                                            <label for="checkout">დასრულება</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" required>
+                                                <option value="1">თბილისი</option>
+                                                <option value="2">ქუთაისი</option>
+                                                <option value="3">რუსთავი</option>
+                                                <option value="4">ბათუმი</option>
+                                                <option value="5">თელავი</option>
+                                                <option value="6">გორი</option>
+                                                <option value="7">ახალციხე</option>
+                                                <option value="8">მესტია</option>
+                                                <option value="9">სენაკი</option>
+                                                <option value="10">ახალქალაქი</option>
+                                            </select>
+                                            <label for="select1">აირჩიეთ ქალაქი</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="number" class="form-control" id="name" placeholder="name" maxlength="10" min="0" max="10" required>
+                                            <label for="name">რაოდენობა</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="select3" required>
+                                              <option value="1">Standart</option>
+                                              <option value="2">Medium</option>
+                                              <option value="3">Luxury</option>
+                                              <option value="4">Gaming</option>
+                                              <option value="5">CISCO Laboratory</option>
+                                              <option value="6">Hacking Laboratory</option>
+                                            </select>
+                                            <label for="select3">ოთახის ტიპი</label>
+                                          </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="message" id="message" style="height: 100px"></textarea>
+                                            <label for="message">დამატებითი მომსახურებები მიუთითეთ აქ</label>
+                                        </div>
+                                    </div>
+                                    <label class="material-checkbox">
+                                        <input id="termsCheckbox" type="checkbox" name="terms" required>
+                                        <span class="checkmark"></span>
+                                        ვეთანხმები პირობებს
+                                      </label>
+                                      
+                                      <div class="col-12">
+                                        <p id="text"></p>
+                                        <button id="sendBtn" class="btn btn-primary w-100 py-3" type="submit">დაჯავშნა</button>
+                                      </div>
+                                      <script>
+                                        const termsCheckbox = document.getElementById('termsCheckbox');
+                                        const sendBtn = document.getElementById('sendBtn');
+                                        const successMessage = 'გმადლობთ, თქვენ წარმატებით დაჯავშნეთ კიბერ-სასტუმრო!';
+                                        const wrongMessage = 'გთხოვთ, გაეცნოთ და დაეთანხმოთ პირობებს!';
+                                        const wrongMessage2 = 'გთხოვთ, შეიყვანოთ მონაცემები!';
+                                        function updateButtonOnClick() {
+                                          if (name.value -- && termsCheckbox.checked) {
+                                            sendBtn.onclick = function() {
+                                              document.getElementById('text').innerHTML = successMessage;
+                                            };
+                                          } else if (!name.value && termsCheckbox.checked){
+                                            sendBtn.onclick = function() {
+                                                document.getElementById('text').innerHTML = wrongMessage2;                                            }
+                                          }
+                                          else {
+                                            sendBtn.onclick = function() {
+                                                document.getElementById('text').innerHTML = wrongMessage; 
+                                        }
+                                    }
+                                }
+                                        termsCheckbox.addEventListener('change', updateButtonOnClick);
+                                        updateButtonOnClick();
+                                      </script>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+         <!-- Subscribe -->
+         <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+             <div class="row justify-content-center">
+               <div class="col-lg-10 border rounded p-1">
+                 <div class="border rounded text-center p-1">
+                   <div class="bg-white rounded text-center p-5">
+                     <h4 class="mb-4">არ გამოტოვო <span class="text-primary text-uppercase">კიბერ-სიახლეები</span></h4>
+                     <div class="position-relative mx-auto" style="max-width: 400px;">
+                     <form name="submit-to-google-sheet">
+                       <input name="email" id="emailInput" type="email" placeholder="შეიყვანეთ Email" class="form-control w-100 py-3 ps-4 pe-5" required>
+                       <button id="subscribeButton" type="submit" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">გაგზავნა</button>
+                     </form>
+                     <script>
+                         const scriptURL = 'https://script.google.com/macros/s/AKfycbwyUv2bGI_W9tT1yekhuN2em88-8dqKoqRMWgJTwn1iUFQXhcy5a0_SvMVQYONrGJLkVQ/exec'
+                         const form = document.forms['submit-to-google-sheet']
+                         
+                         form.addEventListener('submit', e => {
+                           e.preventDefault()
+                           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                             .then(response => console.log('Success!', response))
+                             .catch(error => console.error('Error!', error.message))
+                         })
+                       </script>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         <!-- Subscribe End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-2">
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">კონტაქტი</h6>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>რუსთავი, მე-17 მკრ/რნ,#22</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+995 599 99 08 67</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>booking@cyber.hotel</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/Mushvaaaaannnn"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">კომპანია</h6>
+                                <a class="btn btn-link" href="http://127.0.0.1:5500/index.html">მთავარი</a>
+                                <a class="btn btn-link" href="http://127.0.0.1:5500/about.html">ჩვენს შესახებ</a>
+                                <a class="btn btn-link" href="http://127.0.0.1:5500/contact.html">კონტაქტი</a>
+                                <a class="btn btn-link" href="">კონფიდენციალურობა</a>
+                                <a class="btn btn-link" href="">პარტნიორები</a>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="section-title text-start text-primary text-uppercase mb-4">სერვისები</h6>
+                                <a class="btn btn-link" href="">კიბერ-ტექნოლოგიები</a>
+                                <a class="btn btn-link" href="">უწყვეტი რესურსი</a>
+                                <a class="btn btn-link" href="">სატესტო ლაბორატორია</a>
+                                <a class="btn btn-link" href="">რეკრეაცია</a>
+                                <a class="btn btn-link" href="">სავარჯიშო სივრცე</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">CyberHotel</a> All Right Reserved. 
+                            Designed By <a class="border-bottom" href="https://www.facebook.com/Mushvaaaaannnn">Mushvaaannn</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">მთავარი</a>
+                                <a href="">დახმარება</a>
+                                <a href="">კითხვები</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="booking.js"></script>
+</body>
+
+</html>
+
+</body>
+</html>
